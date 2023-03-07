@@ -4,28 +4,28 @@ import HomePage from './pages/HomePage.vue';
 import AboutUs from './pages/AboutUs.vue';
 import ProjectIndex from './pages/ProjectIndex.vue';
 
-/* const router = createRouter({
+const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
             path: '/',
-            name: '',
-            component: 
+            name: 'home',
+            component: HomePage,
 
         },
         {
-            path: '',
-            name: '',
-            component: 
+            path: '/books-index',
+            name: 'index',
+            component: BooksIndex,
 
         },
         {
-            path: '/',
-            name: '',
-            component: 
+            path: '/about-us',
+            name: 'AboutUs',
+            component: AboutUs,
 
         },
     ]
 });
- */
+
 export { router };

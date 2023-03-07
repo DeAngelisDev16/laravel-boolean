@@ -23,13 +23,16 @@ export default {
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <router-link :to="{ name: 'home' }" class="nav-link"
+                            :class="this.$route.name === 'home' ? 'active' : ''">Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Books</a>
+                        <router-link :to="{ name: 'index' }" class="nav-link"
+                            :class="this.$route.name === 'index' ? 'active' : ''">Books</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <router-link :to="{ name: 'AboutUs' }" class="nav-link"
+                            :class="this.$route.name === 'AboutUs' ? 'active' : ''">About Us</router-link>
                     </li>
 
                 </ul>
