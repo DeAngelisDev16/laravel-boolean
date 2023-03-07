@@ -21,8 +21,8 @@ export default {
                 }
             })
                 .then(function (response) {
-                    console.log(response.data.results.data);
-                    self.booksList = response.data.results.data;
+                    console.log(response.data);
+                    self.booksList = response.data;
 
 
                 })
