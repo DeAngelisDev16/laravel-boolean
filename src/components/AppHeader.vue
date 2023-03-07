@@ -23,16 +23,13 @@ export default {
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link :to="{ name: 'home' }" class="nav-link"
-                            :class="this.$route.name === 'home' ? 'active' : ''">Home</router-link>
+                        <router-link :to="{ name: 'home' }" class="nav-link">Home</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'index' }" class="nav-link"
-                            :class="this.$route.name === 'index' ? 'active' : ''">Books</router-link>
+                        <router-link :to="{ name: 'index' }" class="nav-link">Books</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'AboutUs' }" class="nav-link"
-                            :class="this.$route.name === 'AboutUs' ? 'active' : ''">About Us</router-link>
+                        <router-link :to="{ name: 'AboutUs' }" class="nav-link">About Us</router-link>
                     </li>
 
                 </ul>

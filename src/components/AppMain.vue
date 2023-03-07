@@ -47,6 +47,19 @@ export default {
 
 </script>
 
-<template></template>
+<template>
+    <div class="container">
+        <div class="row">
+            <div class="col-3" v-for="book in booksList">
+                <div class="card">
+                    <h3>{{ book.title }}</h3>
+                    <h4>{{ book.author }}</h4>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</template>
 
 <style scoped></style>

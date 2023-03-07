@@ -16,7 +16,8 @@ export default {
 
 <template>
   <AppHeader />
-  <AppMain />
+
+  <RouterView></RouterView>
 </template>
 
 <style lang="scss">
