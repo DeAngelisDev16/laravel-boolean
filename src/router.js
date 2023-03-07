@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage.vue';
 import AboutUs from './pages/AboutUs.vue';
 import ProjectIndex from './pages/ProjectIndex.vue';
 
-const router = createRouter({
+/* const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
@@ -27,5 +27,5 @@ const router = createRouter({
         },
     ]
 });
-
+ */
 export { router };
